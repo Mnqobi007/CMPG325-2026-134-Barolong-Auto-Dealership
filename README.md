@@ -94,6 +94,51 @@ No second physical branch-office site is included in the current Packet Tracer d
 - [x] IP Addressing Plan
 - [x] Initial GitHub Repository
 
-## Future Development
+<br>
+<br>
 
-Future project phases will include network configuration, VLAN configuration, routing, STP implementation, testing, troubleshooting and final documentation.
+## Milestone 2 – Client Implementation Review
+
+Milestone 2 focused on implementing the assigned networking challenge and validating the network operation through testing.
+
+## Implemented Feature
+
+The assigned feature:
+
+**STP – Loop Prevention & Root Design**
+
+Spanning Tree Protocol (STP) was implemented to prevent Layer 2 switching loops and provide redundancy between network switches.
+
+The STP design uses:
+
+- **CORE-SW1** as the Primary Root Bridge
+- **CORE-SW2** as the Secondary Root Bridge
+
+The redundant links allow STP to automatically block unnecessary paths and activate backup paths when required.
+
+## Milestone 2 Testing
+
+Testing was performed to verify correct network operation.
+
+The following tests were completed:
+
+- [x] STP Root Bridge Verification
+- [x] STP Loop Prevention Verification
+- [x] STP Trunk Forwarding Verification
+- [x] STP Failover Testing
+- [x] STP Failover Connectivity Testing
+- [x] Administration PC Connectivity Testing
+- [x] Sales PC Connectivity Testing
+- [x] Workshop PC Connectivity Testing
+- [x] Guest Wi-Fi Connectivity Testing
+
+Testing evidence is available in:
+
+`Milestone_2/Testing_Evidence`
+
+## Packet Tracer Implementation
+
+The completed Milestone 2 Packet Tracer file is available at:
+
+`Milestone_2/Packet_Tracer/Barolong_Auto_Dealership_Milestone2.pkt`
+
